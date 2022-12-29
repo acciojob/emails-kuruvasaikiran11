@@ -31,10 +31,10 @@ public class Email {
                 this.password = newPassword;
             }
             else
-                System.out.println("The new password is invalid");
+                System.out.println("The new password is not invalid!");
         }
         else
-            System.out.println("Passwords doesn't match");
+            System.out.println("The given password does not match current password!");
     }
     private boolean isValid(String password){
         boolean capitalLetter = false;
