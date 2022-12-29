@@ -45,7 +45,7 @@ public class Gmail extends Email {
                 break;
             }
         }
-        if(index == -1){
+        if(index != -1){
             Trash.add(Inbox.get(index));
             Inbox.remove(index);
         }
